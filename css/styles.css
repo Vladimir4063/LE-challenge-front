@@ -7,12 +7,30 @@
 h1 {
     color:var(--very-dark-desaturated-blue);
     margin: 0;
+    font-size: 25;
+    margin-top: 25px;
 }
+
+h1 span {
+    color: var(--dark-grayish-blue);
+}
+
+h2 {
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+
 
 .cuerpo {
     background:var(--dark-cyan);
     /* margin: 0; */
     padding: 50px; /* relleno interno */
+    font-family: 'Kumbh Sans', sans-serif;
+    
     
 }
 
@@ -21,6 +39,34 @@ color: var(--dark-cyan);
 } */
 
 .card {
-    background-color: white;
+    background: white url('../img/bg-pattern-card.svg') repeat-x;
+    /* background-repeat: repeat no-repeat; */
     margin: 100px;
+    border-radius: 5%;
+    overflow: hidden; /* No deja que se desborde */
+    text-align: center;
+    padding-top: 90px;
+    max-width: 400px; /* Da un tamaño maximo */
+}
+
+.image {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(205, 205, 216, 0.274);
+    padding: 20px 0;
+    /* background: red;
+    display: inline;
+    font-size: 20px; */
+}
+
+.social h3 span {
+    display: block;
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+    margin-top: 10px 0;
 }
