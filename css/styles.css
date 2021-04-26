@@ -1,0 +1,26 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+h1 {
+    color:var(--very-dark-desaturated-blue);
+    margin: 0;
+}
+
+.cuerpo {
+    background:var(--dark-cyan);
+    /* margin: 0; */
+    padding: 50px; /* relleno interno */
+    
+}
+
+/* h4 {
+color: var(--dark-cyan);
+} */
+
+.card {
+    background-color: white;
+    margin: 100px;
+}
